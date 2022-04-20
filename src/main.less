@@ -1,0 +1,32 @@
+@blue: #063dd4;
+@red: rgb(215, 62, 19);
+*{
+    margin:0;
+    padding: 0;
+}
+/deep/.van-button__content{
+  display: flex;
+}
+div,
+span {
+  display: inline-block;
+  font-size: 26px;
+  box-sizing: border-box;
+}
+
+
+.red {
+  color: @red;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: @blue;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
